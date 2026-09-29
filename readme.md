@@ -3,3 +3,4 @@
 3. ในตาราง vw_raw_customers ในคอลัม phone มีการใส่ค่าอื่นๆ เช่น +, -, (), ตัวอักษร
 4. ในตาราง vw_raw_orders ในคอลัม total_amount มีค่า 0 หรือ ติดลบ
 5. ในตาราง vw_raw_orders มีค่าว่างในคอลัม currency หรือ order_date
+6. ในตาราง vw_raw_orders มีค่าในคอลัม customer_id ที่ไม่อยู่ในตาราง vw_raw_customers

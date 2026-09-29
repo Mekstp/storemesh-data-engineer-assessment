@@ -21,3 +21,8 @@ FROM vw_raw_orders
 WHERE currency IS NULL 
 OR order_date IS NULL 
 OR total_amount IS NULL;
+
+SELECT DISTINCT o.customer_id
+FROM vw_raw_orders o
+LEFT JOIN vw_raw_customers c ON o.customer_id = c.customer_id
+WHERE c.customer_id IS NULL;
