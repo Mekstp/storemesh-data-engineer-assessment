@@ -9,8 +9,8 @@ Data Exploration Findings
 ขั้นตอนการ run project
 
 1. ทำการ Clone repository:
-'''git clone 
-cd data-engineer-assessment'''
+git clone 
+cd data-engineer-assessment
 
 2. สร้างและเปิดใช้งาน Virtual Environment:
 macOS / Linux:
@@ -23,8 +23,8 @@ python -m venv venv
 3. ติดตั้งแพ็กเกจที่จำเป็น:
 pip install -r requirements.txt
 
-4. รัน ETL Pipeline
+4. รัน ETL Pipeline:
 python pipeline.py
 
-5. รัน Unit Tests
+5. รัน Unit Tests:
 pytest
